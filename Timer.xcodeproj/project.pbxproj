@@ -15,6 +15,8 @@
 		FBA33F1D243627590046006C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA33F1B243627590046006C /* LaunchScreen.storyboard */; };
 		FBA33F282436275A0046006C /* TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA33F272436275A0046006C /* TimerTests.swift */; };
 		FBA33F332436275A0046006C /* TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA33F322436275A0046006C /* TimerUITests.swift */; };
+		FBA33F41243627C00046006C /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBA33F40243627C00046006C /* alarm_sound.mp3 */; };
+		FBA33F43243628A70046006C /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = FBA33F42243628A70046006C /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FBA33F2E2436275A0046006C /* TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA33F322436275A0046006C /* TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerUITests.swift; sourceTree = "<group>"; };
 		FBA33F342436275A0046006C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA33F40243627C00046006C /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		FBA33F42243628A70046006C /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				FBA33F14243627530046006C /* ViewController.swift */,
 				FBA33F16243627530046006C /* Main.storyboard */,
 				FBA33F19243627590046006C /* Assets.xcassets */,
+				FBA33F40243627C00046006C /* alarm_sound.mp3 */,
 				FBA33F1B243627590046006C /* LaunchScreen.storyboard */,
 				FBA33F1E243627590046006C /* Info.plist */,
+				FBA33F42243628A70046006C /* Readme.md */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA33F43243628A70046006C /* Readme.md in Resources */,
 				FBA33F1D243627590046006C /* LaunchScreen.storyboard in Resources */,
 				FBA33F1A243627590046006C /* Assets.xcassets in Resources */,
+				FBA33F41243627C00046006C /* alarm_sound.mp3 in Resources */,
 				FBA33F18243627530046006C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
